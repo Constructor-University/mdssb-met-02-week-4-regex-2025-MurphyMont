@@ -39,7 +39,7 @@ Find a regular expression that will match this kind of student number.
 `The numbers are (obviously) different for different students, so finding a regular expression that only matches this one student number is not enough. 
 Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** /[G][0-9]+
 
 #### Question 2
 
@@ -48,7 +48,7 @@ Find a regular expression that will match a student number, based on the additio
  
 `Unless the way your regular expression works is obvious, please explain how it works, e.g. this here will match the character and that here makes sure it also works if there is no character in front of the number.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** [Gg]*[0-9]+
 
 #### Question 3
 
@@ -57,7 +57,7 @@ Find a regular expression that will match a student number, based on the additio
  
 `Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** [A-Za-z]*[0-9]+.
 
 #### Question 4a
 
@@ -67,7 +67,7 @@ Example: 0421 / 200 40, +49 421 200 40
  
 `It's obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It's not about trying to come up with as many phone number as you can.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** 0421 / 200 40,+49 421 200 40 
 
 
 #### Question 4b
